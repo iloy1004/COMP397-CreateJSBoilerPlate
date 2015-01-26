@@ -86,9 +86,14 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Script\lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="Script\lib\easeljs.d.ts" />
+    <TypeScriptCompile Include="Script\lib\preloadjs.d.ts" />
+    <TypeScriptCompile Include="Script\lib\soundjs.d.ts" />
+    <TypeScriptCompile Include="Script\lib\tweenjs.d.ts" />
     <TypeScriptCompile Include="Script\game.ts" />
   </ItemGroup>
   <PropertyGroup>
