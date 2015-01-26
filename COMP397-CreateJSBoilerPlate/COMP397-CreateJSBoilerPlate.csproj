@@ -70,6 +70,7 @@
   <ItemGroup>
     <Content Include="CSS\game.css" />
     <Content Include="Global.asax" />
+    <Content Include="Images\images.jpg" />
     <Content Include="Index.html" />
     <Content Include="Script\lib\easeljs-0.8.0.min.js" />
     <Content Include="Script\lib\preloadjs-0.6.0.min.js" />
